@@ -14,10 +14,11 @@ namespace CriacaoComponentes
     {
         private bool rendered = false;
         private List<Produto> listProdutos = new List<Produto>();
-        dataGridView.DataSource = null;
         public Form1()
         {
             InitializeComponent();
+            dataGridView.AutoGenerateColumns = true;
+            dataGridView.DataSource = listProdutos;
         }
 
         private void btnCriar_Click(object sender, EventArgs e)
@@ -34,11 +35,15 @@ namespace CriacaoComponentes
 
         private void Render()
         {
+            /*dataGridView.AutoGenerateColumns = true;
+            dataGridView.DataSource = listProdutos;*/
+
             Label lblQuantidade = new Label();
             lblQuantidade.Name = "lblQuant";
             lblQuantidade.Text = "Quantidade:";
             lblQuantidade.Location = new Point(89, 174);
             lblQuantidade.Width = 90;
+            lblQuantidade.Font = new System.Drawing.Font("Old English Text MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Controls.Add(lblQuantidade);
 
             Label lblDescricao = new Label()
@@ -46,14 +51,15 @@ namespace CriacaoComponentes
                 Name = "lblDescricao",
                 Text = "Descrição:",
                 Location = new Point(89, 214),
-                Width = 90
-            };
+                Width = 90,
+                Font = new System.Drawing.Font("Old English Text MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)))
+        };
             this.Controls.Add(lblDescricao);
 
             TextBox txtQuantidade = new TextBox()
             {
                 Name = "txtQuantidade",
-                Location = new Point(165, 180),
+                Location = new Point(209, 180),
                 Width = 65
             };
             this.Controls.Add(txtQuantidade);
@@ -61,7 +67,7 @@ namespace CriacaoComponentes
             TextBox txtDescricao = new TextBox()
             {
                 Name = "txtDescricao",
-                Location = new Point(165, 220),
+                Location = new Point(209, 220),
                 Width = 65
             };
             this.Controls.Add(txtDescricao);
@@ -70,18 +76,23 @@ namespace CriacaoComponentes
             {
                 Name = "btnSalvar",
                 Text = "Salvar",
-                Location = new Point(304, 180),
+                Location = new Point(337, 180),
                 Size = new Size(86,60)
             };
+
             btnSalvar.Click += (s, e) =>
             {
                 String nome = txtNome.Text;
                 double preco = Double.Parse(txtPreco.Text);
                 int quantidade = int.Parse(txtQuantidade.Text);
                 String descricao = txtDescricao.Text;
+
                 Produto p = new Produto(nome, preco, descricao, quantidade);
+
                 listProdutos.Add(p);
+                dataGridView.DataSource = null;
                 dataGridView.DataSource = listProdutos;
+
                 MessageBox.Show("Criado Com Sucesso!");
             };
             this.Controls.Add(btnSalvar);

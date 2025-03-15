@@ -49,14 +49,14 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(165, 100);
+            this.txtNome.Location = new System.Drawing.Point(209, 100);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
             this.txtNome.TabIndex = 1;
             // 
             // txtPreco
             // 
-            this.txtPreco.Location = new System.Drawing.Point(165, 140);
+            this.txtPreco.Location = new System.Drawing.Point(209, 140);
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.Size = new System.Drawing.Size(100, 20);
             this.txtPreco.TabIndex = 3;
@@ -66,7 +66,7 @@
             this.btnCriar.FlatAppearance.BorderSize = 3;
             this.btnCriar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCriar.Font = new System.Drawing.Font("Old English Text MT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCriar.Location = new System.Drawing.Point(304, 100);
+            this.btnCriar.Location = new System.Drawing.Point(337, 100);
             this.btnCriar.Name = "btnCriar";
             this.btnCriar.Size = new System.Drawing.Size(86, 60);
             this.btnCriar.TabIndex = 4;
