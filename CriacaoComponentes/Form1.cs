@@ -14,6 +14,7 @@ namespace CriacaoComponentes
     {
         private bool rendered = false;
         private List<Produto> listProdutos = new List<Produto>();
+        dataGridView.DataSource = null;
         public Form1()
         {
             InitializeComponent();
