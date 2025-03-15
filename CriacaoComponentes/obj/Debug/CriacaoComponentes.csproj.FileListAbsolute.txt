@@ -1,0 +1,11 @@
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\bin\Debug\CriacaoComponentes.exe.config
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\bin\Debug\CriacaoComponentes.exe
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\bin\Debug\CriacaoComponentes.pdb
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\obj\Debug\CriacaoComponentes.csproj.AssemblyReference.cache
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\obj\Debug\CriacaoComponentes.csproj.SuggestedBindingRedirects.cache
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\obj\Debug\CriacaoComponentes.Form1.resources
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\obj\Debug\CriacaoComponentes.Properties.Resources.resources
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\obj\Debug\CriacaoComponentes.csproj.GenerateResource.cache
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\obj\Debug\CriacaoComponentes.csproj.CoreCompileInputs.cache
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\obj\Debug\CriacaoComponentes.exe
+C:\Users\unisanta\source\repos\CriacaoComponentes\CriacaoComponentes\obj\Debug\CriacaoComponentes.pdb
